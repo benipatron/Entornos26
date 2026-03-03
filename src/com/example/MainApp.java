@@ -10,7 +10,7 @@ public class MainApp {
 		System.out.println("=== BuggyWebApp iniciado ===");
 
         UserController userController = new UserController();
-        userController.createUser("Juan", "juan@mail.com");
+        userController.createUser("", "");
 
         ContactController contactController = new ContactController();
 
